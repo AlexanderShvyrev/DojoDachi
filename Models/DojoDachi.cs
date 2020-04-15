@@ -51,36 +51,45 @@ namespace ComputerPet.Models
             // Fullness-=5;
             // Happiness-=5;
         }
+        public bool IsFull()
+        {
+            if (Fullness == 100)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
 
-        public override bool IsDead
+        public bool IsDead()
         {
-            get
+            if (Energy <= 0 || Happiness <= 0 || Fullness<=0) {
+                return true;
+            } 
+            else 
             {
-                if (Fullness <= 0 || Happiness <=0)
-                {
-                    return true;
-                }
-                else
-                {
-                    return false;
-                }
+                return false;
             }
-                
         }
-        public override bool IsFull
+
+        public bool YouWon()
         {
-            get
+            if (Fullness >= 100 && Happiness >= 100 && Energy >= 100) {
+                return true;
+            } 
+            else 
             {
-                if (Fullness == 100)
-                {
-                    return true;
-                }
-                else
-                {
-                    return false;
-                }
+                return false;
             }
-                
         }
+        public void Restart()
+        {
+            Meals = 3;
+            Happiness = 20;
+            Energy = 50;
+            Fullness = 20;
+        }        
     }
 }

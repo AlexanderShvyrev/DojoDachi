@@ -29,4 +29,5 @@
 /Users/alexandershvyrev/Desktop/Coding_Dojo/C_Sharp/MVC/ComputerPet/obj/Debug/netcoreapp2.2/ComputerPet.dll
 /Users/alexandershvyrev/Desktop/Coding_Dojo/C_Sharp/MVC/ComputerPet/obj/Debug/netcoreapp2.2/ComputerPet.pdb
 /Users/alexandershvyrev/Desktop/Coding_Dojo/C_Sharp/MVC/ComputerPet/obj/Debug/netcoreapp2.2/ComputerPet.csproj.CopyComplete
-/Users/alexandershvyrev/Desktop/Coding_Dojo/C_Sharp/MVC/ComputerPet/obj/Debug/netcoreapp2.2/Razor/Views/Home/Feed.g.cshtml.cs
+/Users/alexandershvyrev/Desktop/Coding_Dojo/C_Sharp/MVC/ComputerPet/obj/Debug/netcoreapp2.2/Razor/Views/Home/Died.g.cshtml.cs
+/Users/alexandershvyrev/Desktop/Coding_Dojo/C_Sharp/MVC/ComputerPet/obj/Debug/netcoreapp2.2/Razor/Views/Home/Won.g.cshtml.cs

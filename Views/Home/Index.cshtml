@@ -4,19 +4,17 @@
 
 @model DojoDachi
 
+    <div class="jumbotron">
+    <p><strong>Energy:</strong> @Model.Energy</p>
+    <p><strong>Fullness:</strong> @Model.Fullness</p>
+    <p><strong>Happiness:</strong> @Model.Happiness</p>
+    <p><strong>Meals:</strong> @Model.Meals</p>
+    <img src="@ViewBag.Image">
 
-<p>Energy: @Model.Energy</p>
-<p>Fullness: @Model.Fullness</p>
-<p>Happiness: @Model.Happiness</p>
-<p>Meals: @Model.Meals</p>
-
-<img src="@ViewBag.Image">
-
-
-    <p>@ViewBag.Message</p>
+    <p style="color:green;">@ViewBag.Message</p>
     <p style="color:red;">@ViewBag.Message1</p> 
-
     <a href="feed" role="button" class="btn btn-primary">Feed</a>
     <a href="play" role="button" class="btn btn-primary">Play</a>
     <a href="sleep" role="button" class="btn btn-primary">Sleep</a>
     <a href="work" role="button" class="btn btn-primary">Work</a>
+</div>

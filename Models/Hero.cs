@@ -28,8 +28,8 @@ namespace ComputerPet.Models
 
         }
 
-        public abstract bool IsFull{get;}
-        public abstract bool IsDead{get;}
+        // public abstract bool IsFull{get;}
+        // public abstract bool IsDead{get;}
         public abstract void Feed();
         public abstract void Play();
         public abstract void Work();

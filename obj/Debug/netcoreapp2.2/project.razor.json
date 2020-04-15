@@ -3001,13 +3001,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/alexandershvyrev/Desktop/Coding_Dojo/C_Sharp/MVC/ComputerPet/Views/Home/feed.cshtml",
-      "TargetPath": "Views\\Home\\feed.cshtml",
+      "FilePath": "/Users/alexandershvyrev/Desktop/Coding_Dojo/C_Sharp/MVC/ComputerPet/Views/Home/Died.cshtml",
+      "TargetPath": "Views\\Home\\Died.cshtml",
       "FileKind": "mvc"
     },
     {
       "FilePath": "/Users/alexandershvyrev/Desktop/Coding_Dojo/C_Sharp/MVC/ComputerPet/Views/Home/Dojodachi.cshtml",
       "TargetPath": "Views\\Home\\Dojodachi.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/alexandershvyrev/Desktop/Coding_Dojo/C_Sharp/MVC/ComputerPet/Views/Home/Won.cshtml",
+      "TargetPath": "Views\\Home\\Won.cshtml",
       "FileKind": "mvc"
     }
   ],
